@@ -85,6 +85,11 @@ img {
   font-size: 45px;
 }
 
+.work-look {
+  font-size: 30px;
+  text-align: center;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
