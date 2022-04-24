@@ -81,6 +81,10 @@ img {
   padding: 0 30px;
 }
 
+.about-header h1 {
+  font-size: 45px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
@@ -99,5 +103,13 @@ img {
   }
   .project-description {
     text-align: center;
+  }
+  .about-wrapper {
+    text-align: center;
+  }
+
+  .about-img {
+    max-width: 150px;
+    margin: 30px;
   }
 }
