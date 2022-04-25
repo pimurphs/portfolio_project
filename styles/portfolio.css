@@ -47,7 +47,7 @@ img {
 
 .container-hero {
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 150px 20px;
 }
 
 .btn-branding {
@@ -90,6 +90,28 @@ img {
   text-align: center;
 }
 
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #cd9c4d;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
@@ -116,5 +138,9 @@ img {
   .about-img {
     max-width: 150px;
     margin: 30px;
+  }
+
+  nav a {
+    font-size: 12px;
   }
 }
