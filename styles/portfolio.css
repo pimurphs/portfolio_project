@@ -1,8 +1,8 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
 :root {
-  --primary-color: #cd9c4d;
-  --secondary-color: #b6dbbc;
+  --primary-color: #e1c065;
+  --secondary-color: #fdf1dd;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -23,7 +23,7 @@ h2 {
   font-size: 36px;
 }
 
-h4 {
+h3 {
   font-family: var(--heading-font-family);
   font-size: 35px;
 }
@@ -34,9 +34,6 @@ p {
   line-height: 30px;
 }
 
-img {
-  max-width: 300px;
-}
 nav ul {
   padding: 0;
   margin: 0;
@@ -64,21 +61,25 @@ footer {
 }
 
 footer .contact-box {
+  margin: 0 auto;
   background-color: var(--secondary-color);
-  padding: 30px 150px;
-  margin-bottom: 10px;
+  padding: 30px 75px;
   border-radius: 4px;
+  max-width: 800px;
 }
 
 footer .contact-box p {
   margin: 0;
+  font-size: 25px;
 }
 
 footer .email-link {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
   text-decoration: none;
   color: #000;
   text-align: center;
-  font-size: 24px;
+  font-size: 34px;
 }
 
 footer .email-link:hover {
@@ -87,16 +88,21 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  padding: 10px 16px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 5px 14px;
   font-size: 22px;
-  border-radius: 50%;
+  border-radius: 4px;
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
   color: #fff;
+}
+.logo-name {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .hero-description {
@@ -113,7 +119,7 @@ footer .social-links a:hover {
 
 .container-hero {
   background: var(--secondary-color);
-  padding: 150px 20px;
+  padding-top: 50px;
 }
 
 .btn-branding {
@@ -182,8 +188,16 @@ footer .social-links a:hover {
   }
 
   .container-hero {
-    padding: 80px 10px;
+    padding: 50px 10px;
   }
+
+  .hero-description {
+    text-align: center;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+
   .project-description {
     text-align: center;
   }
