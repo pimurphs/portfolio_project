@@ -25,7 +25,8 @@ h2 {
 
 h3 {
   font-family: var(--heading-font-family);
-  font-size: 35px;
+  font-weight: 800;
+  font-size: 20px;
 }
 
 p {
@@ -109,17 +110,16 @@ footer .social-links a:hover {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 2;
 }
 
 .hello-emoji {
-  display: inline;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .container-hero {
   background: var(--secondary-color);
-  padding-top: 50px;
+  padding: 50px 20px 25px 20px;
 }
 
 .btn-branding {
@@ -135,8 +135,8 @@ footer .social-links a:hover {
 
 .btn-branding-outline {
   font-weight: 800;
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   font-size: 15px;
   border-radius: 4px;
   padding: 12px 25px;
@@ -160,6 +160,20 @@ footer .social-links a:hover {
 .work-look {
   font-size: 30px;
   text-align: center;
+}
+
+.shecodes-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.shecodes-link:hover {
+  color: #000;
+}
+
+.skills-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 960px) {
@@ -187,6 +201,10 @@ footer .social-links a:hover {
     padding: 10px;
   }
 
+  footer .email-link {
+    font-size: 20px;
+  }
+
   .logo-name {
     font-size: 30px;
   }
@@ -197,9 +215,6 @@ footer .social-links a:hover {
 
   .hero-description {
     line-height: 2;
-  }
-  .email-link {
-    font-size: 15px;
   }
 
   .project-description {
