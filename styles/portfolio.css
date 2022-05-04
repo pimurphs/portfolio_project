@@ -144,6 +144,17 @@ footer .social-links a:hover {
   text-transform: uppercase;
 }
 
+.btn-project-about {
+  font-weight: 800;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 12px 50px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
 .feature-title {
   font-size: 20px;
   margin-left: 30px;
@@ -204,6 +215,9 @@ footer .social-links a:hover {
   footer .email-link {
     font-size: 20px;
   }
+  .about-description {
+    text-align: center;
+  }
 
   .logo-name {
     font-size: 30px;
@@ -218,9 +232,6 @@ footer .social-links a:hover {
   }
 
   .project-description {
-    text-align: center;
-  }
-  .about-wrapper {
     text-align: center;
   }
 
