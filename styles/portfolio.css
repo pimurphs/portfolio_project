@@ -106,13 +106,6 @@ footer .social-links a:hover {
   font-size: 25px;
 }
 
-.hero-description {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 2;
-}
-
 .hello-emoji {
   font-size: 40px;
 }
@@ -162,6 +155,12 @@ footer .social-links a:hover {
 
 .project-description {
   padding: 0 30px;
+}
+
+.project-box {
+  background-color: var(--secondary-color);
+  padding: 40px 0 40px 0;
+  border-radius: 6px;
 }
 
 .about-header h1 {
